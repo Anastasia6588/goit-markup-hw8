@@ -105,6 +105,26 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-button .icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
 .site-nav {
   display: flex;
   align-items: center;
@@ -279,22 +299,13 @@ img {
 }
 
 .advantages {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.advantages-list {
-  display: flex;
-  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .advantages-list__item {
   background: #f5f4fa;
   border-radius: 4px;
-  width: 270px;
-  height: 120px;
-  background-position: center;
-  padding: 25px 100px;
 }
 
 .advantages-list__logo {
@@ -302,7 +313,8 @@ img {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 55px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .advantages-item__title {
@@ -315,6 +327,7 @@ img {
   text-transform: uppercase;
   margin-top: 30px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .advantage-item__text {
@@ -326,6 +339,63 @@ img {
   letter-spacing: 0.03em;
 }
 
+@media screen and (min-width: 480px) {
+  .advanates-list__item {
+    margin-bottom: 30px;
+  }
+  .advanates-list__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* .advantages {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.advantages-list {
+	display: flex;
+	justify-content: space-between;
+
+	&__item {
+		background: #f5f4fa;
+		border-radius: 4px;
+		width: 270px;
+		height: 120px;
+		background-position: center;
+		padding: 25px 100px;
+	}
+
+	&__logo {
+		display: flex;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 55px;
+	}
+}
+
+.advantages-item__title {
+	color: var(--main-text-color);
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.142;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.advantage-item__text {
+	color: var(--special-text-color);
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+}
+ */
 .directions__title {
   color: var(--main-text-color);
   font-family: Roboto;
