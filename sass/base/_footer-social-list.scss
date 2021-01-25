@@ -1,0 +1,21 @@
+.footer-social-list {
+	display: flex;
+
+	&__item {
+		width: 44px;
+		height: 44px;
+		margin-right: 10px;
+	}
+}
+
+.footer-link {
+	background-color: rgba(255, 255, 255, 0.1);
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.footer-icon {
+	fill: var(--light-text-color);
+}
