@@ -66,16 +66,8 @@
 
 	.advantages-list {
 		display: flex;
+		flex-wrap: nowrap;
 		justify-content: space-between;
-
-		&__item {
-			background: #f5f4fa;
-			border-radius: 4px;
-			width: 270px;
-			height: 120px;
-			background-position: center;
-			padding: 25px 100px;
-		}
 
 		&__logo {
 			display: flex;
@@ -83,27 +75,17 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
+
+		&__item {
+			width: 270px;
+			padding: 25px 102px;
+		}
 	}
 
-	.advantages-item__title {
-		color: var(--main-text-color);
-		font-family: Roboto;
-		font-weight: bold;
-		font-size: 14px;
-		line-height: 1.142;
-		letter-spacing: 0.03em;
-		text-transform: uppercase;
-		margin-top: 30px;
-		margin-bottom: 10px;
+	.advantages__item:not(:last-child) {
+		margin-right: 30px;
 	}
-
 	.advantage-item__text {
 		max-width: 270px;
-		color: var(--special-text-color);
-		font-family: Roboto;
-		font-weight: normal;
-		font-size: 14px;
-		line-height: 1.714;
-		letter-spacing: 0.03em;
 	}
 }
