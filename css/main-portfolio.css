@@ -446,57 +446,60 @@ img {
   color: var(--light-text-color);
 }
 
-.social-list {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
-}
+/* .social-list {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+	padding-left: 32px;
+	padding-right: 32px;
 
-.social-list__item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	&__item {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
 }
 
 .social-list__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffffff;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  margin-right: 10px;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	margin-right: 10px;
 
-.social-list__link:last-child {
-  margin-right: 0;
-}
+	transition-property: background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-.social-list__link:hover, .social-list__link:focus {
-  background-color: var(--hover-color);
+	&:last-child {
+		margin-right: 0;
+	}
+
+	&:hover,
+	&:focus {
+		background-color: var(--hover-color);
+	}
 }
 
 .social-list__icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  fill: #afb1b8;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	fill: #afb1b8;
 
-.social-list__link:hover .social-list__icon,
-.social-list__link:focus .social-list__icon {
-  fill: var(--light-text-color);
-}
+	transition-property: fill;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+	.social-list__link:hover &,
+	.social-list__link:focus & {
+		fill: var(--light-text-color);
+	}
+}
+ */
 .footer-social-list {
   display: flex;
 }
