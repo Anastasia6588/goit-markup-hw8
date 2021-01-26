@@ -51,7 +51,7 @@
 		// margin: -15px;
 	}
 
-	<!--пофиксить-- > .advantages__item {
+	.advantages__item {
 		// margin: 15px;
 		width: calc((100% - 30px * 2) / 2);
 		// width: 354px;
@@ -66,6 +66,8 @@
 	.advantages {
 		padding-top: 94px;
 		padding-bottom: 94px;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 
 	.advantages-list {
