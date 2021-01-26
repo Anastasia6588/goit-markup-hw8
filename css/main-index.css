@@ -55,6 +55,13 @@ img {
   overflow: hidden;
 }
 
+@media screen and (min-width: 1200px) {
+  .section {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 .container {
   width: 100%;
   padding: 0 15px;
@@ -374,8 +381,6 @@ img {
   .advantages {
     padding-top: 94px;
     padding-bottom: 94px;
-    max-width: 1200px;
-    margin: 0 auto;
   }
   .advantages-list {
     display: flex;
@@ -407,10 +412,6 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .directions {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
   .directions__title {
     color: var(--main-text-color);
     font-family: Roboto;
@@ -487,8 +488,6 @@ img {
   .team {
     padding-top: 94px;
     padding-bottom: 94px;
-    max-width: 1200px;
-    margin: 0 auto;
   }
   .team__item:not(:last-child) {
     margin-right: 30px;
